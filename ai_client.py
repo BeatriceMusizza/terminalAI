@@ -3,7 +3,7 @@ import requests
 
 API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
 HEADERS = {
-    "Authorization": f"Bearer {os.getenv('HF_TOKEN') or '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'}",  
+    "Authorization": f"Bearer {os.getenv('HF_TOKEN') or 'hf_'}",  
     "Content-Type": "application/json"
 }
 
